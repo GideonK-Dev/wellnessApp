@@ -5,16 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
+    android:background="#666"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#666"
-    tools:context=".NutritionAdvice">
+    tools:context=".StartExercise">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="NutritionAdvice"
+        android:text="StartExercise"
         android:textColor="#4E27B0"
         android:layout_marginTop="20dp"
         android:textAlignment="center"
@@ -24,13 +24,14 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/image6"
+        android:src="@drawable/start"
         android:scaleType="centerCrop"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Eat a balanced, varied diet by filling half your plate with colorful fruits and vegetables, one-quarter with lean protein (fish, beans, nuts), and one-quarter with whole grains"/>
+        android:text="Weight Management/Cardiovascular Health/Improved Immune Function"/>
 
 </LinearLayout>

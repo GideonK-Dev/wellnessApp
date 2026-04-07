@@ -31,4 +31,9 @@
         android:scaleType="centerCrop"
         android:layout_margin="20dp"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regular practice enhances focus, memory, and emotional regulation while improving sleep quality"/>
+
 </LinearLayout>
