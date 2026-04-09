@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
 
             val meditationIntent= Intent(applicationContext, Meditation::class.java)
             startActivity(meditationIntent)
-            showInterstitialAd()
+
         }
 
 //        Progress intent
